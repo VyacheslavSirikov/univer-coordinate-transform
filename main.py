@@ -77,4 +77,4 @@ if __name__ == "__main__":
     t = threading.Thread(target=keep_alive)
     t.daemon = True
     t.start()
-    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8348)))
