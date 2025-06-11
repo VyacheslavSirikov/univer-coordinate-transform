@@ -4,7 +4,7 @@ import streamlit as st
 import requests
 
 # URL бэкенд-сервера
-BACKEND_URL = "https://coordinate-transform-backend.onrender.com"
+BACKEND_URL = "https://univer-coordinate-transform.onrender.com"
 
 # Настройка интерфейса Streamlit
 st.title("Преобразование координатных данных")
